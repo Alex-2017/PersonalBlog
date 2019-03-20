@@ -15,7 +15,7 @@ summaryLength = 10
   description = "知行合一"
   busuanzi = true
   busuanzi_site_offset = 100000
-
+  paginate =  5
 [menu]
 
   [[menu.main]]
