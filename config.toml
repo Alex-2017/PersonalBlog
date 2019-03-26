@@ -2,6 +2,7 @@ baseURL = "https://wangjc95.com"
 languageCode = "zh-CN"
 title = "Alex的博客"
 theme = "maupassant-hugo"
+#theme = "jane"
 #自定义文章摘要
 summaryLength = 10
 
@@ -15,7 +16,6 @@ summaryLength = 10
   description = "知行合一"
   busuanzi = true
   busuanzi_site_offset = 100000
-  paginate =  5
 [menu]
 
   [[menu.main]]
