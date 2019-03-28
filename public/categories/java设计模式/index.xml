@@ -6,10 +6,34 @@
     <description>Recent content in Java设计模式 on Alex的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 20 Mar 2019 22:15:15 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 26 Mar 2019 21:51:00 +0800</lastBuildDate>
     
 	<atom:link href="https://wangjc95.com/categories/java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>组合模式</title>
+      <link>https://wangjc95.com/post/11-%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F/</link>
+      <pubDate>Tue, 26 Mar 2019 21:51:00 +0800</pubDate>
+      
+      <guid>https://wangjc95.com/post/11-%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F/</guid>
+      <description>介绍: 这是阅读head first design patterns的阅读笔记.
+1.场景介绍 基于之前迭代器模式的菜单整合模式下提出了一个新的需求,餐厅要创建一份甜点菜单,并把这个菜单放到餐厅菜单中.
+新增的需求让当前的系统到达了一个复杂级别,如果现在不重新设计,就无法容纳未来增加的菜单或子菜单等需求.我们需要某种树形结构,可以容纳菜单,子菜单和菜单项,同时能够确定在每个菜单的各个项之间游走,而且至少要像现在用迭代器一样方便.
+2.解决方案 2.</description>
+    </item>
+    
+    <item>
+      <title>迭代器模式</title>
+      <link>https://wangjc95.com/post/10-%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F/</link>
+      <pubDate>Sat, 23 Mar 2019 21:15:15 +0800</pubDate>
+      
+      <guid>https://wangjc95.com/post/10-%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F/</guid>
+      <description>介绍: 这是阅读head first design patterns的阅读笔记.
+1.场景介绍 有两种菜单,分别是DinerMenu和PancakeHouseMenu.将这两种菜单整合,需要一个特定的服务员类Waitress来进行整合和菜单的遍历等功能.
+MenuItem.java
+package iterator; import lombok.</description>
+    </item>
     
     <item>
       <title>模版方法模式</title>
