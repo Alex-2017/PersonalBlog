@@ -527,6 +527,8 @@ class CKTagTest2 {
     }
 ```
 
+**控制台输出:**
+
 ```
 @annotations.CJTag(name=Alex, age=24)
 @annotations.CJTag(name=Wang, age=25)
