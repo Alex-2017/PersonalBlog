@@ -1,40 +1,43 @@
 baseURL = "https://wangjc95.com"
 languageCode = "zh-CN"
-title = "Alex的博客"
-theme = "maupassant-hugo"
-#theme = "jane"
+title = "BaseC的博客"
+theme = "hugo-nuo"
+#设置代码格式
+PygmentsCodeFences = true
 #自定义文章摘要
 summaryLength = 10
+#Disqus Username
+disqusShortname = "http-wangjc95-com"
 
 [author]
-  name = "Alex"
+  name = "BaseC"
 
 [params]
-  author = "Alex"
-  subtitle = "Java程序猿"
-  keywords = "Java,设计模式"
-  description = "知行合一"
-  busuanzi = true
-  busuanzi_site_offset = 100000
+	author = "BaseC"
+	subtitle = "学会生活,理解生活,领悟生活!"
+	email = "1017086516@qq.com"
+	wechat= "/images/qrcode.jpg" 		
+	#keywords = "Java,设计模式"
+	#description = "知行合一"
+	#busuanzi = true
+	#busuanzi_site_offset = 100000
+
 [menu]
 
-  [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
-    weight = 2
+	[[menu.main]]
+	      name = "首页"
+	      weight = 1
+		  identifier = "home"
+		  url = "/"
+
+	[[menu.main]]
+		  name = "标签"
+		  weight = 2
+		  identifier = "tags"
+		  url = "/tags/"
 	
-[params.utteranc]
-    enable = true
-    repo = "Alex-2017/comment"    # 存储评论的Repo，格式为 owner/repo
-    issueTerm = "pathname"  #表示你选择以那种方式让github issue的评论和你的文章关联。
-    theme = "github-light" # 样式主题，有github-light和github-dark两种	
-	
-#[[params.links]]
-#  title = "Android Gradle权威指南"
-#  name = "Android Gradle权威指南"
-#  url = "http://yuedu.baidu.com/ebook/14a722970740be1e640e9a3e"
-#[[params.links]]
-#  title = "常用开发工具CDN镜像"
-#  name = "常用开发工具CDN镜像"
-#  url = "http://mirrors.flysnow.org/"
+#[params.utteranc]
+    #enable = true
+    #repo = "Alex-2017/comment"    # 存储评论的Repo，格式为 owner/repo
+    #issueTerm = "pathname"  #表示你选择以那种方式让github issue的评论和你的文章关联。
+    #theme = "github-light" # 样式主题，有github-light和github-dark两种	
