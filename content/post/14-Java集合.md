@@ -1,9 +1,11 @@
 ---
 title: 'Java集合'
-tags: ["疯狂Java讲义第三版读书笔记","javaSE"]
+tags: ["疯狂Java讲义第三版阅读笔记","javaSE"]
 date: 2019-06-07
 draft: false
 ---
+
+**介绍:** 这是疯狂`Java`讲义第三版阅读笔记.
 
 # 1.`Collection`和`Iterator`接口
 

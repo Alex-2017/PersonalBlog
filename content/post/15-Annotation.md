@@ -1,9 +1,11 @@
 ---
 title: 'Annotation'
-tags: ["疯狂Java讲义第三版读书笔记","javaSE"]
+tags: ["疯狂Java讲义第三版阅读笔记","javaSE"]
 date: 2019-06-15
 draft: false
 ---
+
+**介绍:** 这是疯狂`Java`讲义第三版阅读笔记.
 
 # 1.`JDK`的元`Annotation`
 
